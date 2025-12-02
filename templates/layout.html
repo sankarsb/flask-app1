@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dairy-Queen Replica</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <img src="/static/logo.png" alt="DQ Logo" class="logo">
+        <nav class="main-nav">
+          <a href="#menu">Menu</a>
+          <a href="#offers">Offers</a>
+          <a href="#locations">Locations</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; Dairy-Queen Replica - made with Flask</p>
+      </div>
+    </footer>
+  </body>
+</html>
