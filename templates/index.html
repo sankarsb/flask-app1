@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<section class="hero">
+  <div class="container hero-inner">
+    <h1>Real Ice Cream. Real Treats.</h1>
+    <p>Welcome to our Dairy-Queen inspired site. Soft serve, Blizzards, and smiles.</p>
+    <a class="btn primary" href="#menu">See Menu</a>
+  </div>
+</section>
+
+<section id="menu" class="section">
+  <div class="container">
+    <h2>Featured Items</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="/static/softserve.jpg" alt="Soft Serve">
+        <h3>Soft Serve</h3>
+        <p>Classic cone with creamy soft serve.</p>
+      </div>
+      <div class="card">
+        <img src="/static/blizzard.jpg" alt="Blizzard">
+        <h3>Blizzard Treat</h3>
+        <p>Mix-ins with every bite.</p>
+      </div>
+      <div class="card">
+        <img src="/static/cake.jpg" alt="Cakes">
+        <h3>Cakes & Desserts</h3>
+        <p>Celebrate with our cakes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="offers" class="section alt">
+  <div class="container">
+    <h2>Current Offers</h2>
+    <ul>
+      <li>Buy one Blizzard, get 50% off the second (weekdays)</li>
+      <li>Free small cone with any cake purchase</li>
+    </ul>
+  </div>
+</section>
+
+{% endblock %}
